@@ -1,0 +1,12 @@
+sources:
+  - name: walmart_databricks
+    database:  dbt_airflow 
+    schema: dev  
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
+      - name: order_items
+      - name: stores
+      - name: employees
+
