@@ -1,5 +1,6 @@
 # Airflow
 airflow/logs/
+airflow/.env
 
 # Python
 .venv/
@@ -7,8 +8,11 @@ __pycache__/
 *.pyc
 
 # dbt
-walmart_project/target/
-walmart_project/dbt_packages/
+airflow/walmart_project/target/
+airflow/walmart_project/dbt_packages/
 
-# dbt credentials
-walmart_project/profiles.yml
+# Secrets
+airflow/walmart_project/profiles.yml
+
+# dbt logs
+logs/
